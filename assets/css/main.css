@@ -680,7 +680,7 @@ input, select, textarea {
 		}
 
 /* Row */
-
+		
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -3541,32 +3541,39 @@ input, select, textarea {
 					
 				}
 
+				#banner .content header .text{
+					background-color: rgba(255, 255, 255, 0.952);
+					padding-left: 10px;
+				}
+
 				#banner .content header small{
 					color: rgb(16, 66, 103);
-					font-size: smaller;
+					font-size: large;
 					text-transform: uppercase;
+					font-weight: bold;
 				}
 
 				#banner .content header p {
-					color: rgb(162, 90, 31);
-					font-size: 1em;
-					margin: 0.5em 0 0 0;
+					color: rgb(146, 35, 15);
+					letter-spacing: 5px;
+					font-size: 0.8em;
+					font-weight: bold;
 					text-transform: uppercase;
 					top: 0;
 				}
 
 			#banner .content .image {
 				background-color: transparent;
-				border-radius: 100%;
+				border-radius: 10px;
 				display: inline-block;
-				height: 18em;
+				height: 12em;
 				margin-left: 3em;
 				vertical-align: middle;
 				width: 18em;
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					/* border-radius: 100%; */
 					display: block;
 					height: auto;
 					width: 100%;
